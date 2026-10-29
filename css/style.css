@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
-    --secondary: #4777F5;
-    --light: #F7FAFF;
-    --dark: #1D1D27;
+    --primary: #050834;
+    --secondary: #a9d2ff;
+    --light: #d7d7d7;
+    --dark: #1a1a1a;
 }
 
 
@@ -180,6 +180,11 @@ h6,
     }
 }
 
+.header-logo {
+    position: relative;
+    z-index: 1;
+}
+
 
 /*** Hero Header ***/
 .hero-header {
@@ -196,6 +201,10 @@ h6,
         left 45% bottom -1px,
         center bottom -1px;
     background-repeat: no-repeat;
+}
+
+.bg-primary {
+    background-color: var(--primary);!important;
 }
 
 
